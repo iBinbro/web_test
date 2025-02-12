@@ -1,15 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
- 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
-    <title>Grae:1v1 video chat</title>
-    <script type="module" crossorigin src="./assets/index-BpMVleA9.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-rngmxuKt.css">
-  <link rel="manifest" href="./manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="./registerSW.js"></script></head>
-  <body>
-    <div id="app"></div>
-    <!-- <iframe id="chromeCheckFrame" style="display:none" onload="iframeLoaded()"></iframe> -->
-  </body>
+	<head>
+		<link rel="stylesheet" href="/no_pwa/assets/uni.727b2b03.css">
+
+		<meta charset="UTF-8" />
+		<!-- 禁止浏览器自动识别数字为号码 -->
+		<meta name="format-detection" content="telephone=no" />
+		<!-- 设置 Web 应用是否以全屏模式运行 -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+		<!-- 配置网站图标 -->
+		<link rel="shortcut icon" href="static/common/logo.png" type="image/png">
+		<script>
+			var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+				CSS.supports('top: constant(a)'))
+			document.write(
+				'<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+				(coverSupport ? ', viewport-fit=cover' : '') + '" />')
+		</script>
+		<title>Emma</title>
+		<meta name="description" content="1v1 Private Interactions, Real-Time Video Social." />
+		<!--preload-links-->
+		<!--app-context-->
+		<style>
+			/* 去除Uniapp自己请求的一些CDN资源 */
+			body::after {
+				content: none !important;
+			}
+
+			body {
+				background-color: #3B3243FF;
+			}
+		</style>
+		<script type="module" crossorigin src="/no_pwa/assets/index-SUU5mfSv.js"></script>
+		<link rel="stylesheet" crossorigin href="/no_pwa/assets/index-DRghe6gL.css">
+	<link rel="manifest" href="/no_pwa/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/no_pwa/registerSW.js"></script></head>
+	<body>
+		<div id="app"><!--app-html--></div>
+	</body>
 </html>

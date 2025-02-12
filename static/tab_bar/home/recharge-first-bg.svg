@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="295px" height="318px" viewBox="0 0 295 318" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg</title>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFB11B" offset="0%"></stop>
+            <stop stop-color="#FB5629" offset="30.229258%"></stop>
+            <stop stop-color="#FB662A" offset="73.8353641%"></stop>
+            <stop stop-color="#FFB81E" offset="100%"></stop>
+        </linearGradient>
+        <path d="M64,243 L311,243 C324.254834,243 335,253.745166 335,267 L335,537 C335,550.254834 324.254834,561 311,561 L64,561 C50.745166,561 40,550.254834 40,537 L40,267 C40,253.745166 50.745166,243 64,243 Z" id="path-2"></path>
+        <filter x="-4.4%" y="-4.1%" width="108.8%" height="108.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="10" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-6" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.6 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="PWA-Emma" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg" transform="translate(-40, -243)">
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <path stroke="#FFE9A8" stroke-width="2" d="M311,244 C317.351275,244 323.101275,246.574363 327.263456,250.736544 C331.425637,254.898725 334,260.648725 334,267 L334,537 C334,543.351275 331.425637,549.101275 327.263456,553.263456 C323.101275,557.425637 317.351275,560 311,560 L64,560 C57.6487254,560 51.8987254,557.425637 47.736544,553.263456 C43.5743627,549.101275 41,543.351275 41,537 L41,267 C41,260.648725 43.5743627,254.898725 47.736544,250.736544 C51.8987254,246.574363 57.6487254,244 64,244 Z" stroke-linejoin="square"></path>
+        </g>
+    </g>
+</svg>
